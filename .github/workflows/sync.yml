@@ -18,4 +18,4 @@ jobs:
             flash-gordon/polygon@main
           FILES: |
             tool-config.yaml=tool-config-synced.yaml
-          TOKEN: ${{ secrets.ACTIONS }}
+          TOKEN: ${{ secrets.SYNC_TOKEN }}
